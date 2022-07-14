@@ -1,0 +1,98 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    height: 600px ;
+    width:600px ;
+    background-color: aquamarine;
+
+    
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation: left-right 2s forwards infinite alternate;
+}
+
+
+@keyframes left-right{
+    10%{
+        transform: translateX(0);
+    }
+    33%{
+        transform: translateY(200%); 
+        background-color: blue;
+    }
+    66%{
+        transform: translateX(200%) translateY(200%);
+        background-color: darkgreen;
+    }
+    100%{
+        transform: translateX(200%);
+        background-color: black;
+    }
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container{
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   */
+/* } */ */
+/* .pfp{
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    background-color: red;
+} */
+/* .box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+.first{
+    background-color: red;
+}
+.second{
+    background-color: yellow;
+}
+.third{
+    background-color: aqua; 
+}
+.pfp{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    background-color: red;
+} */
